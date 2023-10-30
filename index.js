@@ -11,8 +11,7 @@ inquirer
   .prompt([
     {
       name: "url",
-      message: "Enter your url",
-      type: "input",
+      message: "Enter your URL: ",
     },
   ])
   .then(function (answer) {
