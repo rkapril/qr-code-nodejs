@@ -14,7 +14,7 @@ inquirer
       message: "Enter your URL: ",
     },
   ])
-  .then(function (answer) {
+  .then((answer) => {
     fs.writeFile("URL.txt", answer.url, (err) => {
       if (err) throw err;
       console.log("The details has been saved!");
